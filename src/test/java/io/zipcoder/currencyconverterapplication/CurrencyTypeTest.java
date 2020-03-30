@@ -28,41 +28,49 @@ public class CurrencyTypeTest {
 
     @Test
     public void testGetTypeOfCurrencyOfCanadianDollar() {
+
         test(CurrencyType.CANADIAN_DOLLAR, new CanadianDollar());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfChineseYR() {
+
         test(CurrencyType.CHINESE_YR, new ChineseYR());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfEuro() {
+
         test(CurrencyType.EURO, new Euro());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfFranc() {
+
         test(CurrencyType.FRANC, new Franc());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfPound() {
+
         test(CurrencyType.POUND, new Pound());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfRinggit() {
+
         test(CurrencyType.RINGGIT, new Ringgit());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfRupee() {
+
         test(CurrencyType.RUPEE, new Rupee());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfSingaporeDollar() {
+
         test(CurrencyType.SINGAPORE_DOLLAR, new SingaporeDollar());
     }
 
@@ -73,11 +81,13 @@ public class CurrencyTypeTest {
 
     @Test
     public void testGetTypeOfCurrencyOfUSDollar() {
+
         test(CurrencyType.US_DOLLAR, new USDollar());
     }
 
     @Test
     public void testGetTypeOfCurrencyOfYen() {
+
         test(CurrencyType.YEN, new Yen());
     }
 }
